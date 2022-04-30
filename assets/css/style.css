@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    width: 100%;
+    background-color: #2C2C2C;;
+    text-align: center;
+}
+p{
+    font-size: 12rem;
+    text-align: center;
+    padding: 22% 6% 6% 6%;
+}
+/* Farben: #2C2C2C, #FDF860, #000000, #FFFFFF, #97F5BB, #525DF4 */
+div{
+    display: inline-block;
+    width: 33vw;
+    height: 33vw;
+    text-align: center;
+    background: #000000;
+    color: #FDF860;
+    margin-top: 10%;
+    border: solid #2C2C2C 0.1rem;
+    border-radius: 3rem;
+}
+fieldset {
+    display: inline-block;
+    width: 42vw;
+    height: 42vw;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    box-sizing: border-box;
+
+    border-radius: 3rem; 
+    margin: 1%;
+  }
+  #field1{
+    border: solid #97F5BB 1px;
+  }
+  #field2{
+    border: solid #525DF4  1px;
+  }
+  
+  legend {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 0 5px;
+    background: #2C2C2C;
+    color: #FDF860;
+  }
+  div.Buttset1, div.Buttset2{
+    display: inline-block;
+    width: 42vw;
+    height: 9vw;
+      background-color: #2C2C2C;
+      margin-left: 4%;;
+  }
+  div.Buttset1{
+      margin-left: 9%;;
+  }
+  div.Buttset2{
+      margin-left: 2%;;
+  }
+  button{
+  }
+  #ButtH1, #ButtH2, #ButtH3{
+      font-size: 1.8rem;
+      text-align: center;
+    border: solid #97F5BB 1px;
+    background:#97F5BB;
+    border-radius: 1rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 1%;
+    padding: 9% 9% 9% 9%;
+  }
+  #ButtA1, #ButtA2, #ButtA3{
+      font-size: 1.8rem;
+      text-align: center;
+    border: solid #525DF4 1px;
+    background:#525DF4;
+    border-radius: 1rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 1%;
+    padding: 9% 9% 9% 9%;
+  }
+  #reset{
+    font-size: 1rem;
+    text-align: center;
+  border: solid #e7e7e7 1px;
+  background: #e7e7e7;;
+  border-radius: 1rem;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 6% 36% 6% 42%;
+  padding: 1% 6% 1% 6%;
+
+  }
